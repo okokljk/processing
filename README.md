@@ -1,6 +1,12 @@
 # processing
 
 코드
+
+
+
+
+
+
  int x = 300;
 int y = 200;
 int dirX= 20;
