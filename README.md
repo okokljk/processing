@@ -60,7 +60,7 @@ void draw () {
   g = random(255);
   b = random(255);
   a = random(255);
-  diam = random(20);
+  diam = random(20);  //도형의 크기
   x = random(width);
   y = random(height);
   
