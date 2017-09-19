@@ -107,14 +107,31 @@ void draw() {
   stroke(0);
   fill(255);
   ellipse(zoogX,zoogY-30,60,60);
+int x1=0;
+int y1=60;
+int x2=0;
+int y2=300;
+r
+
+
+
+
+void setup(){
+  size(1200,900);
+  background(255);
+  for(int i = 0; i <width; i =i+10){
+  line(i,i,60,i);
+f  }
   
+  
+}  
   eyeR = random(255);
   eyeG = random(255);
   eyeB = random(255);
   fill(eyeR, eyeG, eyeB);
   ellipse(zoogX-19,zoogY-30,16,32);
   ellipse(zoogX+19,zoogY-30,16,32);
-  
+r  
   stroke(150);
   line(zoogX-10, zoogY+50, zoogX-10, height);
   line(zoogX+10, zoogY+50, zoogX+10, height);
